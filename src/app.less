@@ -1,0 +1,28 @@
+@import './variable.less';
+
+page {
+  background: @bg-gray-7;
+  font-size: 28px;
+  color: @font-black;
+  line-height: 40px;
+}
+
+.input-placeholder {
+  color: #999;
+}
+
+// 此处去除小程序的一些奇怪样式
+button {
+  border: none;
+
+  &::after {
+    border: none;
+  }
+}
+image {
+  will-change: width height;
+  height: 0;
+}
+cover-image {
+  height: auto;
+}

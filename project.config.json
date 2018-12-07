@@ -1,0 +1,25 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "test_taro",
+  "description": "测试taro项目",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true
+  },
+  "compileType": "miniprogram",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "id": 1,
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": ""
+        }
+      ]
+    }
+  }
+}
